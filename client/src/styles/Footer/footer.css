@@ -1,0 +1,23 @@
+footer {
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.footer__section2, .footer__section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    justify-content: center;
+    background-color: #c4b5fd;
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    gap: 10px;
+}
+.footer__section2 a, .footer__section3 a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
